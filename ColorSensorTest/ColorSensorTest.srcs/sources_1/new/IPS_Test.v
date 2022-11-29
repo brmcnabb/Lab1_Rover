@@ -45,10 +45,9 @@ task constrain (input [11:0] x, a, b, output [11:0] x_out);
 endtask
 
 
+
 module ColorSensor_Test(
     input clock100,
-    input buttonA,
-    input buttonB,
     input sensorOUT,
     output reg LED0,
     output reg LED1,
@@ -61,9 +60,11 @@ module ColorSensor_Test(
     
     );
         reg clock25;
-        reg clockset = 1'b0;   
-        reg cali = 1'b0;    
+        reg clockset = 1'b0;
+        reg sensorOUTC = 1;     
+        reg calibrate = 0;
         reg[11:0] COUNTER;
+        reg[27:0] COUNTERD;
         reg[11:0] greenMin;
         reg[11:0] greenMax;
         reg[11:0] redMin;
@@ -77,33 +78,12 @@ module ColorSensor_Test(
         reg[11:0] greencolor;
         reg[11:0] bluecolor;
         reg[11:0] maxVal;
-        parameter COUNT = 11'd10;
+        parameter COUNT = 27'd10000000;
         
         
 task pulseIn (input pin, value, output [11:0] freq);    //Measures length of frequency from input pin
-    begin
-        clockset = 0;
-        COUNTER = 0;
-        while(clockset == 0)    //Waiting for pin to be equal to input value
-        begin
-            if(pin == value)
-            begin
-                clockset = 1;
-            end
-        end
-        while(clockset == 1)    //If pin is equal to input value, counts until pin is no longer equal
-        begin    
-            COUNTER = COUNTER + 1;
-            if (pin != value)
-            begin
-                clockset = 0;
-            end
-        end
-        
-        freq = COUNTER;         //Outputs pulse length to freq
-    end
-endtask      
 
+endtask      
     initial begin
         S0 = 1;
         S1 = 0;
@@ -111,16 +91,9 @@ endtask
         LED1 = 0;
         LED2 = 0;
         LED3 = 0;
-        while(cali == 0)
-        begin
-            if(buttonA == 1)
-            begin
-            cali = 1;
-            end
-        end
-        LED0 = 0;
         #2000000000;
         LED0 = 1;
+        #1000000000;
         S2 = 0;
         S3 = 0;
         pulseIn(sensorOUT, 0, redMin);
@@ -152,25 +125,66 @@ endtask
         
         
     end
+    
+    always@(posedge sensorOUT)begin
+        sensorOUTC = 1;
+    end
+    
+    always@(negedge sensorOUT)begin
+        sensorOUTC = 0;
+    end
+    
     always@(posedge clock100)begin   
-        S2 = 0;
-        S3 = 0;
-        pulseIn(sensorOUT, 0, redfreq);
-        map(redfreq, redMin, redMax, 0, 255, redcolor);
-        #100000000;
-        S2 = 1;
-        S3 = 1;
-        pulseIn(sensorOUT, 0, greenfreq);
-        map(greenfreq, greenMin, greenMax, 0, 255, greencolor);
-        #100000000;
-        S2 = 0;
-        S3 = 1;
-        pulseIn(sensorOUT, 0, bluefreq);
-        map(bluefreq, blueMin, blueMax, 0, 255, bluecolor);
-        #100000000;
-        constrain(redcolor, 0, 255, redcolor);
-        contrain(greencolor, 0, 255, greencolor);
-        contrain(bluecolor, 0, 255, bluecolor);
+        COUNTERD = COUNTERD + 1;
+        if(COUNTERD > COUNT)
+        begin
+            clock25 = ~clock25;
+            COUNTERD = 11'd0;
+        end
+        if(sensorOUTC == 1)
+        begin
+            COUNTER = COUNTER + 1;
+        end
+        else if (S2 == 0 && S3 == 0)begin
+            redfreq = COUNTER;
+            map(redfreq, redMin, redMax, 0, 255, redcolor);
+            constrain(redcolor, 0, 255, redcolor);
+        end
+        else if (S2 == 1 && S3 == 1)begin
+            greenfreq = COUNTER;
+            map(greenfreq, greenMin, greenMax, 0, 255, greencolor);
+            contrain(greencolor, 0, 255, greencolor);
+        end
+        else if (S2 == 0 && S3 == 1)begin
+            bluefreq = COUNTER;
+            map(bluefreq, blueMin, blueMax, 0, 255, bluecolor);
+            contrain(bluecolor, 0, 255, bluecolor);
+        end
+        if(calibrate == 0)begin //White calibration
+            if (clock25 == 1) begin
+                calibrate = calibrate + 1;
+                S2 = 0;
+                S3 = 0;
+            end
+        end
+        else if(calibrate == 1)begin //Black calibration
+            redMin = COUNTER;
+        end
+        else if(calibrate == 2)begin //Normal mode
+        
+        end
+//        S2 = 0;
+//        S3 = 0;
+//        pulseIn(sensorOUT, 0, redfreq);
+        
+//        S2 = 1;
+//        S3 = 1;
+//        pulseIn(sensorOUT, 0, greenfreq);
+        
+//        S2 = 0;
+//        S3 = 1;
+//        pulseIn(sensorOUT, 0, bluefreq);
+ 
         if(redcolor > greencolor)
         begin
             maxVal = redcolor;
