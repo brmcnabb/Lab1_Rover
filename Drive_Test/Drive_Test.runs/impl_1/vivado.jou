@@ -2,12 +2,12 @@
 # Vivado v2022.1 (64-bit)
 # SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
 # IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
-# Start of session at: Fri Dec  2 19:04:43 2022
-# Process ID: 12388
+# Start of session at: Sun Dec  4 12:19:21 2022
+# Process ID: 5844
 # Current directory: C:/Users/letsa/Drive_Test/Drive_Test.runs/impl_1
-# Command line: vivado.exe -log FINAL_DEMO.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FINAL_DEMO.tcl -notrace
-# Log file: C:/Users/letsa/Drive_Test/Drive_Test.runs/impl_1/FINAL_DEMO.vdi
+# Command line: vivado.exe -log Motor_Driver.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Motor_Driver.tcl -notrace
+# Log file: C:/Users/letsa/Drive_Test/Drive_Test.runs/impl_1/Motor_Driver.vdi
 # Journal file: C:/Users/letsa/Drive_Test/Drive_Test.runs/impl_1\vivado.jou
 # Running On: LAPTOP-N675SMJ5, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17056 MB
 #-----------------------------------------------------------
-source FINAL_DEMO.tcl -notrace
+source Motor_Driver.tcl -notrace

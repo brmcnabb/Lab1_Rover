@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log FINAL_DEMO.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source FINAL_DEMO.tcl
+EAStep vivado -log Motor_Driver.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Motor_Driver.tcl
