@@ -1,0 +1,2856 @@
+/*
+
+Xilinx Vivado v2022.1 (64-bit) [Major: 2022, Minor: 1]
+SW Build: 3526262 on Mon Apr 18 15:48:16 MDT 2022
+IP Build: 3524634 on Mon Apr 18 20:55:01 MDT 2022
+
+Process ID (PID): 4364
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Dec 03 22:03:20 CST 2022
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.11 64-bit
+Java home: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9
+Java executable: 	C:/Xilinx/Vivado/2022.1/tps/win64/jre11.0.11_9/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	conne
+User home directory: C:/Users/conne
+User working directory: C:/Users/conne/Motor_Driver
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2022.1
+RDI_DATADIR: C:/Xilinx/Vivado/2022.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2022.1/bin
+
+Vivado preferences file: C:/Users/conne/AppData/Roaming/Xilinx/Vivado/2022.1/vivado.xml
+Vivado preferences directory: C:/Users/conne/AppData/Roaming/Xilinx/Vivado/2022.1/
+Vivado layouts directory: C:/Users/conne/AppData/Roaming/Xilinx/Vivado/2022.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2022.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/conne/Motor_Driver/vivado.log
+Vivado journal file: 	C:/Users/conne/Motor_Driver/vivado.jou
+Engine tmp dir: 	C:/Users/conne/Motor_Driver/.Xil/Vivado-4364-LAPTOP-AU7949BK
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2022.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2022.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2022.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2022.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,442 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\conne\Motor_Driver\Motor_Driver.xpr. Version: Vivado v2022.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/conne/Motor_Driver/Motor_Driver.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,442 MB. GUI used memory: 57 MB. Current time: 12/3/22, 10:03:21 PM CST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/conne/Motor_Driver/Motor_Driver.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/conne/Motor_Driver/Motor_Driver.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 115 MB (+118321kb) [00:00:17]
+// [Engine Memory]: 1,442 MB (+1360357kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  3733 ms.
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'. 
+// Project name: Motor_Driver; location: C:/Users/conne/Motor_Driver; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:12 . Memory (MB): peak = 1630.344 ; gain = 0.000 
+dismissDialog("Open Project"); // bA
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Critical Messages"); // a
+// PAPropertyPanels.initPanels (Motor_Driver.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Motor_Driver (Motor_Driver.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Motor_Driver (Motor_Driver.v)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Motor_Driver (Motor_Driver.v)]", 1, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1384 ms.
+// [GUI Memory]: 126 MB (+4932kb) [00:00:40]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Motor_Driver.xdc]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Motor_Driver.xdc]", 4, false, false, false, false, false, true); // D - Double Click
+// WARNING: HEventQueue.dispatchEvent() is taking  1309 ms.
+dismissDialog("Opening Editor"); // bA
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+// [GUI Memory]: 133 MB (+1137kb) [00:01:04]
+selectCodeEditor("Motor_Driver.v", 268, 131); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Motor_Driver.v", 249, 188); // be
+selectCodeEditor("Motor_Driver.v", 241, 222); // be
+// Elapsed time: 65 seconds
+selectCodeEditor("Motor_Driver.v", 159, 220); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 135, 202); // be
+// Elapsed time: 39 seconds
+selectCodeEditor("Motor_Driver.v", 169, 194); // be
+// Elapsed time: 339 seconds
+selectCodeEditor("Motor_Driver.v", 255, 222); // be
+selectCodeEditor("Motor_Driver.v", 270, 222); // be
+selectCodeEditor("Motor_Driver.v", 143, 240); // be
+// Elapsed time: 26 seconds
+selectCodeEditor("Motor_Driver.v", 298, 250); // be
+// Elapsed time: 253 seconds
+selectCodeEditor("Motor_Driver.v", 347, 262); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 1,442 MB. GUI used memory: 75 MB. Current time: 12/3/22, 10:33:22 PM CST
+// Elapsed time: 1111 seconds
+selectCodeEditor("Motor_Driver.v", 156, 140); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("Motor_Driver.v", 159, 177); // be
+// Elapsed time: 37 seconds
+selectCodeEditor("Motor_Driver.v", 339, 139); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'c'); // be
+selectCodeEditor("Motor_Driver.v", 158, 160); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 204, 155); // be
+selectCodeEditor("Motor_Driver.v", 351, 153); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Motor_Driver.v", 410, 155); // be
+// Elapsed time: 52 seconds
+selectCodeEditor("Motor_Driver.v", 432, 152); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Motor_Driver.v", 434, 100); // be
+// Elapsed time: 163 seconds
+selectCodeEditor("Motor_Driver.v", 100, 153); // be
+// Elapsed time: 41 seconds
+selectCodeEditor("Motor_Driver.v", 373, 112); // be
+// Elapsed time: 82 seconds
+selectCodeEditor("Motor_Driver.v", 361, 118); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("Motor_Driver.v", 361, 134); // be
+// Elapsed time: 94 seconds
+selectCodeEditor("Motor_Driver.v", 474, 218); // be
+selectCodeEditor("Motor_Driver.v", 234, 150); // be
+// Elapsed time: 74 seconds
+selectCodeEditor("Motor_Driver.v", 591, 194); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 435, 225); // be
+selectCodeEditor("Motor_Driver.v", 327, 195); // be
+selectCodeEditor("Motor_Driver.v", 456, 220); // be
+selectCodeEditor("Motor_Driver.v", 456, 220); // be
+// Elapsed time: 24 seconds
+selectCodeEditor("Motor_Driver.v", 279, 134); // be
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Motor_Driver.v", 439, 198); // be
+selectCodeEditor("Motor_Driver.v", 173, 177); // be
+selectCodeEditor("Motor_Driver.v", 179, 174); // be
+selectCodeEditor("Motor_Driver.v", 182, 194); // be
+selectCodeEditor("Motor_Driver.v", 240, 218); // be
+// Elapsed time: 24 seconds
+selectCodeEditor("Motor_Driver.v", 370, 215); // be
+selectCodeEditor("Motor_Driver.v", 299, 255); // be
+selectCodeEditor("Motor_Driver.v", 212, 278); // be
+selectCodeEditor("Motor_Driver.v", 293, 137); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("Motor_Driver.v", 403, 173); // be
+selectCodeEditor("Motor_Driver.v", 403, 173); // be
+selectCodeEditor("Motor_Driver.v", 438, 145); // be
+selectCodeEditor("Motor_Driver.v", 182, 309); // be
+// Elapsed time: 17 seconds
+selectCodeEditor("Motor_Driver.v", 447, 259); // be
+// Elapsed time: 23 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 28 seconds
+selectCodeEditor("Motor_Driver.v", 50, 290); // be
+selectCodeEditor("Motor_Driver.v", 207, 167); // be
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  3 22:49:54 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sat Dec  3 22:49:54 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 22 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// WARNING: HEventQueue.dispatchEvent() is taking  2138 ms.
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // s
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Select Device"); // c
+// [GUI Memory]: 167 MB (+28478kb) [00:47:38]
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+// Elapsed time: 33 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL
+// Tcl Command: 'rdi::info_commands {get*}'
+// Tcl Command: 'rdi::info_commands {get_*}'
+// Tcl Command: 'rdi::info_commands {get_board*}'
+// Tcl Command: 'rdi::info_commands {get_board_*}'
+// Tcl Command: 'rdi::info_commands {get_board_parts*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "get_board_parts", true); // l
+// Tcl Command: 'rdi::info_commands {get_board_parts*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "get_board_parts", true); // l
+// Tcl Command: 'rdi::info_commands {get_board_parts*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "get_board_parts", true); // l
+// Tcl Command: 'get_board_parts'
+// Tcl Command: 'get_board_parts'
+// Tcl Message: get_board_parts 
+// Tcl Message: xilinx.com:ac701:part0:1.4 xilinx.com:k26c:part0:1.2 xilinx.com:k26c:part0:1.3 xilinx.com:k26i:part0:1.2 xilinx.com:k26i:part0:1.3 xilinx.com:kcu116:part0:1.4 xilinx.com:kcu116:part0:1.5 xilinx.com:kv260_som:part0:1.2 xilinx.com:kv260_som:part0:1.3 xilinx.com:sp701:part0:1.0 xilinx.com:sp701:part0:1.1 xilinx.com:zc702:part0:1.4 xilinx.com:zcu104:part0:1.1 xilinx.com:zcu106:part0:2.4 xilinx.com:zcu106:part0:2.5 xilinx.com:zcu106:part0:2.6 
+// Elapsed time: 55 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Settings"); // d
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Board 49-71] The board_part definition was not found for digilentinc.com:basys3:part0:1.2. The project's board_part property was not set, but the project's part property was set to xc7a35tcpg236-1. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command. Check if board.repoPaths parameter is set and the board_part is installed from the tcl app store.. ]", 4, false); // ah
+// Elapsed time: 26 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // ao
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ar
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+selectButton(PAResourceQtoS.SettingsProjectGeneralPage_CHOOSE_DEVICE_FOR_YOUR_PROJECT, (String) null); // s
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i
+// [GUI Memory]: 277 MB (+107050kb) [00:50:50]
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", (String) null); // OverlayTextField
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Parts", 0); // i
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a35tcpg236-1 ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 203, "xc7a35tcpg236-1", 0); // r
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Artix-7", 1); // q
+selectComboBox(PAResourceEtoH.FPGAChooser_PACKAGE, "cpg236", 1); // q
+selectComboBox(PAResourceEtoH.FPGAChooser_SPEED, "-1", 1); // q
+// Elapsed time: 82 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Select Device"); // c
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Settings"); // d
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  3 22:55:46 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 2); // m
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 55 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  3 22:57:00 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 84 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+// Elapsed time: 45 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec  3 22:59:11 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 22 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g: TRUE
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g: FALSE
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available. ]", 2); // ah
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, General Messages, [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available. ]", 2); // ah
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 37 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bA
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // ao
+// Elapsed time: 21 seconds
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // ao
+// Elapsed time: 19 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+selectButton("NEXT", "Next >"); // JButton
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// Elapsed time: 13 seconds
+dismissDialog("Open Target"); // bA
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+selectButton("NEXT", "Next >"); // JButton
+dismissDialog("Close Target"); // bA
+selectTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "xilinx_tcf ; Digilent/210183B16119A ; 15000000", 0, "15000000", 2); // bO
+// TclEventType: HW_TARGET_CHANGE
+editTable(PAResourceTtoZ.TargetChooserPanel_TARGET_CHOOSER_TABLE, "30000000", 0, "JTAG Clock Frequency", 2); // bO
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+dismissDialog("Open Target"); // bA
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+dismissDialog("Close Target"); // bA
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+dismissDialog("Open Target"); // bA
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+dismissDialog("Close Target"); // bA
+selectButton("NEXT", "Next >"); // JButton
+// HMemoryUtils.trashcanNow. Engine heap size: 1,830 MB. GUI used memory: 93 MB. Current time: 12/3/22, 11:01:57 PM CST
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 3324.117 ; gain = 1693.773 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server -url localhost:3121 -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 INFO: [Labtools 27-3414] Connected to existing cs_server. 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183B16119A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 30000000 [get_hw_targets */xilinx_tcf/Digilent/210183B16119A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: create_hw_cfgmem -hw_device [get_hw_devices xc7a35t_0] -mem_dev [lindex [get_cfgmem_parts {mx25l3273f-spi-x1_x2_x4}] 0] 
+// Elapsed time: 12 seconds
+selectButton("FINISH", "Finish"); // JButton
+// 'H' command handler elapsed time: 32 seconds
+dismissDialog("Open Hardware Target"); // bA
+dismissDialog("Open New Hardware Target"); // aN
+// [Engine Memory]: 3,252 MB (+1822656kb) [00:58:56]
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY, "Program Configuration Memory Device..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+selectButton(PAResourceOtoP.ProgramCfgMemDialog_CONTENTS_OF_CONFIGURATION_FILE, (String) null); // s
+// HMemoryUtils.trashcanNow. Engine heap size: 3,277 MB. GUI used memory: 95 MB. Current time: 12/3/22, 11:02:22 PM CST
+setFileChooser("C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bin");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// 'aa' command handler elapsed time: 10 seconds
+dismissDialog("Program Configuration Memory Device"); // aE
+// Tcl Message: set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.FILES [list "C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: startgroup  
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a35t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]; 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s). 
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: Mfg ID : c2   Memory Type : 20   Memory Capacity : 16   Device ID 1 : 0   Device ID 2 : 0 Performing Erase Operation... 
+// Tcl Message: Erase Operation successful. Performing Program and Verify Operations... 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: Program/Verify Operation successful. 
+// Tcl Message: INFO: [Labtoolstcl 44-377] Flash programming completed successfully 
+// Tcl Message: program_hw_cfgmem: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 3374.723 ; gain = 0.000 
+// Tcl Message: endgroup 
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 11 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+dismissDialog("Close Hardware Target"); // n
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 83 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// Elapsed time: 13 seconds
+selectCodeEditor("Motor_Driver.v", 167, 34); // be
+selectCodeEditor("Motor_Driver.v", 39, 50); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 386, 137); // be
+selectCodeEditor("Motor_Driver.v", 477, 124); // be
+selectCodeEditor("Motor_Driver.v", 467, 138); // be
+selectCodeEditor("Motor_Driver.v", 453, 134); // be
+selectCodeEditor("Motor_Driver.v", 221, 135); // be
+selectCodeEditor("Motor_Driver.v", 290, 142); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("Motor_Driver.v", 276, 71); // be
+selectCodeEditor("Motor_Driver.v", 249, 62); // be
+selectCodeEditor("Motor_Driver.v", 278, 95); // be
+selectCodeEditor("Motor_Driver.v", 389, 83); // be
+// Elapsed time: 151 seconds
+selectCodeEditor("Motor_Driver.v", 180, 199); // be
+selectCodeEditor("Motor_Driver.v", 213, 191); // be
+// Elapsed time: 77 seconds
+selectCodeEditor("Motor_Driver.v", 416, 195); // be
+selectCodeEditor("Motor_Driver.v", 420, 199); // be
+// Elapsed time: 17 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  3 23:09:40 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sat Dec  3 23:09:40 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 147 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec  3 23:12:10 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // g: TRUE
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 47 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY, "Program Configuration Memory Device..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Program Configuration Memory Device"); // aE
+// Tcl Message: set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.FILES [list "C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: startgroup  
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a35t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]; 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s). 
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: Mfg ID : c2   Memory Type : 20   Memory Capacity : 16   Device ID 1 : 0   Device ID 2 : 0 Performing Erase Operation... 
+// Tcl Message: Erase Operation successful. Performing Program and Verify Operations... 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: Program/Verify Operation successful. 
+// Tcl Message: INFO: [Labtoolstcl 44-377] Flash programming completed successfully 
+// Tcl Message: program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 3392.020 ; gain = 0.000 
+// Tcl Message: endgroup 
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 13 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 246 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// Elapsed time: 45 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bA
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 2); // m
+selectCodeEditor("Motor_Driver.xdc", 422, 138); // be
+selectCodeEditor("Motor_Driver.xdc", 10, 194); // be
+selectCodeEditor("Motor_Driver.xdc", 447, 219); // be
+selectCodeEditor("Motor_Driver.xdc", 458, 223); // be
+selectCodeEditor("Motor_Driver.xdc", 408, 260); // be
+selectCodeEditor("Motor_Driver.xdc", 458, 284); // be
+selectCodeEditor("Motor_Driver.xdc", 359, 255); // be
+selectCodeEditor("Motor_Driver.xdc", 406, 215); // be
+selectCodeEditor("Motor_Driver.xdc", 359, 193); // be
+selectCodeEditor("Motor_Driver.xdc", 399, 286); // be
+// Elapsed time: 26 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 215, 132); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("Motor_Driver.v", 227, 153); // be
+// Elapsed time: 19 seconds
+selectCodeEditor("Motor_Driver.v", 377, 195); // be
+selectCodeEditor("Motor_Driver.v", 275, 196); // be
+selectCodeEditor("Motor_Driver.v", 234, 200); // be
+selectCodeEditor("Motor_Driver.v", 276, 215); // be
+selectCodeEditor("Motor_Driver.v", 353, 203); // be
+// Elapsed time: 51 seconds
+selectCodeEditor("Motor_Driver.v", 343, 221); // be
+selectCodeEditor("Motor_Driver.v", 270, 99); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'c'); // be
+selectCodeEditor("Motor_Driver.v", 345, 97); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 181, 133); // be
+selectCodeEditor("Motor_Driver.v", 203, 122); // be
+selectCodeEditor("Motor_Driver.v", 210, 150); // be
+selectCodeEditor("Motor_Driver.v", 208, 132); // be
+selectCodeEditor("Motor_Driver.v", 424, 143); // be
+selectCodeEditor("Motor_Driver.v", 349, 156, false, false, false, true, false); // be - Popup Trigger
+selectCodeEditor("Motor_Driver.v", 296, 149); // be
+selectCodeEditor("Motor_Driver.v", 354, 158); // be
+selectCodeEditor("Motor_Driver.v", 348, 219); // be
+selectCodeEditor("Motor_Driver.v", 351, 279); // be
+selectCodeEditor("Motor_Driver.v", 421, 193); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  3 23:22:38 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sat Dec  3 23:22:38 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 31 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("Motor_Driver.v", 273, 178); // be
+selectCodeEditor("Motor_Driver.v", 301, 179); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectCheckBox((HResource) null, "Text Editors - Motor_Driver.v", false); // g: FALSE
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+selectCheckBox((HResource) null, "Text Editors - Motor_Driver.v", true); // g: TRUE
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 4 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// 'c' command handler elapsed time: 5 seconds
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 2); // m
+// Tcl Message: [Sat Dec  3 23:23:30 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sat Dec  3 23:23:30 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 2); // m
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 106 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec  3 23:26:34 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 97 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bA
+// Elapsed time: 21 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // ao
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183B16119A,PARAM.FREQUENCY:30000000"); // ar
+// Tcl Message: connect_hw_server -url localhost:3121 -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2022.1   **** Build date : Apr 18 2022 at 16:02:36     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2022.1.0   ****** Build date   : Apr 12 2022-14:12:08     **** Build number : 2022.1.1649790728       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3392.020 ; gain = 0.000 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183B16119A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 30000000 [get_hw_targets */xilinx_tcf/Digilent/210183B16119A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: create_hw_cfgmem -hw_device [get_hw_devices xc7a35t_0] -mem_dev [lindex [get_cfgmem_parts {mx25l3273f-spi-x1_x2_x4}] 0] 
+dismissDialog("Open Hardware Target"); // bA
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY, "Program Configuration Memory Device..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Program Configuration Memory Device"); // aE
+// Tcl Message: set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.FILES [list "C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: startgroup  
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a35t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]; 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s). 
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: Mfg ID : c2   Memory Type : 20   Memory Capacity : 16   Device ID 1 : 0   Device ID 2 : 0 Performing Erase Operation... 
+// Tcl Message: Erase Operation successful. Performing Program and Verify Operations... 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: Program/Verify Operation successful. 
+// Tcl Message: INFO: [Labtoolstcl 44-377] Flash programming completed successfully 
+// Tcl Message: program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 3396.824 ; gain = 0.000 
+// Tcl Message: endgroup 
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 15 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// Elapsed time: 17 seconds
+dismissDialog("Close Hardware Target"); // n
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+dismissDialog("Close Hardware Target"); // n
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 153 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 100 MB. Current time: 12/3/22, 11:32:22 PM CST
+// Elapsed time: 24 seconds
+selectCodeEditor("Motor_Driver.v", 350, 116, false, false, false, true, false); // be - Popup Trigger
+selectCodeEditor("Motor_Driver.v", 271, 117); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("Motor_Driver.v", 286, 94); // be
+// Elapsed time: 17 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 55 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g: TRUE
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'cycle_A_reg' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:163]. ]", 2, true); // ah - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'cycle_A_reg' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:163]. ]", 2, true); // ah - Node
+selectCodeEditor("Motor_Driver.v", 324, 96); // be
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'cycle_A_reg' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:163]. ]", 2); // ah
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-327] inferring latch for variable 'cycle_A_reg' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:163]. ]", 2); // ah
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (cycle_A_reg[15]) is unused and will be removed from module Motor_Driver.. ]", 4); // ah
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (cycle_A_reg[15]) is unused and will be removed from module Motor_Driver.. ]", 4); // ah
+// Elapsed time: 43 seconds
+selectCodeEditor("Motor_Driver.v", 214, 200); // be
+// Elapsed time: 500 seconds
+selectCodeEditor("Motor_Driver.v", 146, 27); // be
+selectCodeEditor("Motor_Driver.v", 200, 27); // be
+selectCodeEditor("Motor_Driver.v", 273, 29); // be
+// Elapsed time: 40 seconds
+selectCodeEditor("Motor_Driver.v", 351, 111); // be
+// Elapsed time: 41 seconds
+selectCodeEditor("Motor_Driver.v", 476, 100); // be
+selectCodeEditor("Motor_Driver.v", 422, 135); // be
+// Elapsed time: 25 seconds
+selectCodeEditor("Motor_Driver.v", 143, 262); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("Motor_Driver.v", 178, 309); // be
+selectCodeEditor("Motor_Driver.v", 382, 116); // be
+selectCodeEditor("Motor_Driver.v", 375, 96); // be
+selectCodeEditor("Motor_Driver.v", 430, 114); // be
+selectCodeEditor("Motor_Driver.v", 488, 117); // be
+selectCodeEditor("Motor_Driver.v", 517, 101); // be
+// Elapsed time: 86 seconds
+selectCodeEditor("Motor_Driver.v", 407, 85); // be
+selectCodeEditor("Motor_Driver.v", 349, 175); // be
+selectCodeEditor("Motor_Driver.v", 401, 177); // be
+// Elapsed time: 15 seconds
+selectCodeEditor("Motor_Driver.v", 363, 234); // be
+selectCodeEditor("Motor_Driver.v", 478, 193); // be
+// Elapsed time: 40 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 350, 237); // be
+selectCodeEditor("Motor_Driver.v", 348, 308); // be
+selectCodeEditor("Motor_Driver.v", 418, 260); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  3 23:49:20 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sat Dec  3 23:49:20 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // n
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // n
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-8891] 'State_Color' is already declared [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:249]. ]", 7, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;249;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.v", 125, 282); // be
+selectCodeEditor("Motor_Driver.v", 372, 238); // be
+selectCodeEditor("Motor_Driver.v", 165, 260); // be
+selectCodeEditor("Motor_Driver.v", 181, 267); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bA
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  3 23:50:34 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sat Dec  3 23:50:34 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 156 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL
+// Elapsed time: 11 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // l
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false); // t
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY, "Program Configuration Memory Device..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Program Configuration Memory Device"); // aE
+// Tcl Message: set_property PROGRAM.ADDRESS_RANGE  {use_file} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.FILES [list "C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bin" ] [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.PRM_FILE {} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.UNUSED_PIN_TERMINATION {pull-none} [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: startgroup  
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: create_hw_bitstream -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [get_property PROGRAM.HW_CFGMEM_BITFILE [ lindex [get_hw_devices xc7a35t_0] 0]]; program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]; refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]; 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 SPI core(s). 
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_cfgmem -hw_cfgmem [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]] 
+// Tcl Message: Mfg ID : c2   Memory Type : 20   Memory Capacity : 16   Device ID 1 : 0   Device ID 2 : 0 Performing Erase Operation... 
+// Tcl Message: Erase Operation successful. Performing Program and Verify Operations... 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: Program/Verify Operation successful. 
+// Tcl Message: INFO: [Labtoolstcl 44-377] Flash programming completed successfully 
+// Tcl Message: program_hw_cfgmem: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 3401.016 ; gain = 0.000 
+// Tcl Message: endgroup 
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 14 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 435 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 97 MB. Current time: 12/4/22, 12:02:23 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 97 MB. Current time: 12/4/22, 12:32:23 AM CST
+// Elapsed time: 2396 seconds
+selectCodeEditor("Motor_Driver.v", 105, 301); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+// Elapsed time: 27 seconds
+selectCodeEditor("Motor_Driver.v", 74, 246); // be
+selectCodeEditor("Motor_Driver.v", 353, 240); // be
+// Elapsed time: 73 seconds
+selectCodeEditor("Motor_Driver.v", 272, 201); // be
+// Elapsed time: 91 seconds
+selectCodeEditor("Motor_Driver.v", 690, 203); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 448, 239); // be
+// Elapsed time: 51 seconds
+selectCodeEditor("Motor_Driver.v", 522, 245); // be
+selectCodeEditor("Motor_Driver.v", 610, 235); // be
+selectCodeEditor("Motor_Driver.v", 680, 230); // be
+selectCodeEditor("Motor_Driver.v", 690, 241); // be
+// Elapsed time: 58 seconds
+selectCodeEditor("Motor_Driver.v", 469, 181); // be
+selectCodeEditor("Motor_Driver.v", 691, 176); // be
+selectCodeEditor("Motor_Driver.v", 640, 171); // be
+selectCodeEditor("Motor_Driver.v", 553, 176); // be
+selectCodeEditor("Motor_Driver.v", 466, 181); // be
+selectCodeEditor("Motor_Driver.v", 467, 118); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 1); // m
+selectCodeEditor("Motor_Driver.xdc", 483, 158); // be
+selectCodeEditor("Motor_Driver.xdc", 10, 159); // be
+selectCodeEditor("Motor_Driver.xdc", 490, 159); // be
+// Elapsed time: 11 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // D
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // D
+// Elapsed time: 29 seconds
+selectCodeEditor("Motor_Driver.xdc", 482, 205); // be
+selectCodeEditor("Motor_Driver.xdc", 0, 183); // be
+selectCodeEditor("Motor_Driver.xdc", 10, 198); // be
+// Elapsed time: 134 seconds
+selectCodeEditor("Motor_Driver.xdc", 21, 251); // be
+selectCodeEditor("Motor_Driver.xdc", 16, 264); // be
+selectCodeEditor("Motor_Driver.xdc", 486, 136); // be
+selectCodeEditor("Motor_Driver.xdc", 417, 160); // be
+selectCodeEditor("Motor_Driver.xdc", 491, 185); // be
+selectCodeEditor("Motor_Driver.xdc", 483, 176); // be
+selectCodeEditor("Motor_Driver.xdc", 433, 199); // be
+selectCodeEditor("Motor_Driver.xdc", 505, 221); // be
+selectCodeEditor("Motor_Driver.xdc", 412, 205); // be
+selectCodeEditor("Motor_Driver.xdc", 466, 223); // be
+selectCodeEditor("Motor_Driver.xdc", 431, 238); // be
+selectCodeEditor("Motor_Driver.xdc", 371, 239); // be
+selectCodeEditor("Motor_Driver.xdc", 388, 240); // be
+selectCodeEditor("Motor_Driver.xdc", 442, 258); // be
+selectCodeEditor("Motor_Driver.xdc", 492, 258); // be
+selectCodeEditor("Motor_Driver.xdc", 469, 260); // be
+selectCodeEditor("Motor_Driver.xdc", 503, 257); // be
+// Elapsed time: 20 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 0); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 95 MB. Current time: 12/4/22, 1:02:23 AM CST
+// Elapsed time: 2403 seconds
+selectCodeEditor("Motor_Driver.v", 69, 339); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 1, 145); // be
+selectCodeEditor("Motor_Driver.v", 0, 156); // be
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // D
+selectCodeEditor("Motor_Driver.v", 218, 93); // be
+selectCodeEditor("Motor_Driver.v", 447, 99); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 95 MB. Current time: 12/4/22, 1:32:24 AM CST
+// Elapsed time: 117 seconds
+selectCodeEditor("Motor_Driver.v", 51, 135); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 88, 121); // be
+selectCodeEditor("Motor_Driver.v", 97, 137); // be
+selectCodeEditor("Motor_Driver.v", 90, 134); // be
+selectCodeEditor("Motor_Driver.v", 16, 153); // be
+selectCodeEditor("Motor_Driver.v", 21, 175); // be
+selectCodeEditor("Motor_Driver.v", 527, 174); // be
+selectCodeEditor("Motor_Driver.v", 665, 75); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Motor_Driver.v", 275, 135); // be
+selectCodeEditor("Motor_Driver.v", 267, 157); // be
+// Elapsed time: 20 seconds
+selectCodeEditor("Motor_Driver.v", 729, 74); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("Motor_Driver.v", 275, 179); // be
+selectCodeEditor("Motor_Driver.v", 266, 173); // be
+selectCodeEditor("Motor_Driver.v", 507, 178); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Motor_Driver.v", 58, 133); // be
+selectCodeEditor("Motor_Driver.v", 478, 177); // be
+selectCodeEditor("Motor_Driver.v", 494, 160); // be
+// Elapsed time: 1387 seconds
+selectCodeEditor("Motor_Driver.v", 4, 31); // be
+selectCodeEditor("Motor_Driver.v", 544, 75); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 8, 117); // be
+selectCodeEditor("Motor_Driver.v", 2, 114); // be
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 96 MB. Current time: 12/4/22, 2:02:24 AM CST
+// Elapsed time: 346 seconds
+selectCodeEditor("Motor_Driver.v", 287, 135); // be
+selectCodeEditor("Motor_Driver.v", 293, 191); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 361, 77); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("Motor_Driver.v", 232, 34); // be
+selectCodeEditor("Motor_Driver.v", 251, 27); // be
+selectCodeEditor("Motor_Driver.v", 245, 29); // be
+// Elapsed time: 220 seconds
+selectCodeEditor("Motor_Driver.v", 473, 203); // be
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+// Elapsed time: 644 seconds
+selectCodeEditor("Motor_Driver.v", 397, 236); // be
+selectCodeEditor("Motor_Driver.v", 288, 244); // be
+selectCodeEditor("Motor_Driver.v", 321, 237); // be
+selectCodeEditor("Motor_Driver.v", 355, 239); // be
+selectCodeEditor("Motor_Driver.v", 395, 240); // be
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 1); // m
+// Elapsed time: 15 seconds
+selectCodeEditor("Motor_Driver.xdc", 3, 71); // be
+typeControlKey((HResource) null, "Motor_Driver.xdc", 'v'); // be
+// Elapsed time: 29 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 77 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 0); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 96 MB. Current time: 12/4/22, 2:32:25 AM CST
+// Elapsed time: 537 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 02:32:37 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 02:32:37 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 1); // m
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ';' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:49]. ]", 3, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;49;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.v", 767, 225); // be
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 1); // m
+selectCodeEditor("Motor_Driver.xdc", 1, 90); // be
+typeControlKey((HResource) null, "Motor_Driver.xdc", 'v'); // be
+selectCodeEditor("Motor_Driver.xdc", 15, 94); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.xdc", 569, 252); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 0); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 02:34:32 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 02:34:32 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 40 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:51]. ]", 2, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;51;-;;-;16;-;"); // ah
+// Elapsed time: 47 seconds
+selectCodeEditor("Motor_Driver.v", 498, 195); // be
+selectCodeEditor("Motor_Driver.v", 52, 157); // be
+// Elapsed time: 44 seconds
+selectCodeEditor("Motor_Driver.v", 87, 280); // be
+selectCodeEditor("Motor_Driver.v", 94, 279); // be
+selectCodeEditor("Motor_Driver.v", 88, 262); // be
+selectCodeEditor("Motor_Driver.v", 87, 239); // be
+selectCodeEditor("Motor_Driver.v", 84, 223); // be
+selectCodeEditor("Motor_Driver.v", 165, 211); // be
+selectCodeEditor("Motor_Driver.v", 38, 157); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 108, 72); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 37, 112); // be
+selectCodeEditor("Motor_Driver.v", 33, 132); // be
+selectCodeEditor("Motor_Driver.v", 22, 150); // be
+selectCodeEditor("Motor_Driver.v", 122, 158); // be
+selectCodeEditor("Motor_Driver.v", 121, 100); // be
+selectCodeEditor("Motor_Driver.v", 131, 100); // be
+selectCodeEditor("Motor_Driver.v", 132, 110); // be
+selectCodeEditor("Motor_Driver.v", 130, 142); // be
+selectCodeEditor("Motor_Driver.v", 100, 154); // be
+selectCodeEditor("Motor_Driver.v", 282, 158); // be
+selectCodeEditor("Motor_Driver.v", 484, 239); // be
+selectCodeEditor("Motor_Driver.v", 308, 223); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 247, 236, false, false, false, true, false); // be - Popup Trigger
+selectCodeEditor("Motor_Driver.v", 37, 251); // be
+selectCodeEditor("Motor_Driver.v", 228, 240); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'c'); // be
+selectCodeEditor("Motor_Driver.v", 269, 227); // be
+selectCodeEditor("Motor_Driver.v", 262, 259); // be
+selectCodeEditor("Motor_Driver.v", 264, 247); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 129, 239); // be
+selectCodeEditor("Motor_Driver.v", 218, 256); // be
+selectCodeEditor("Motor_Driver.v", 229, 241); // be
+selectCodeEditor("Motor_Driver.v", 216, 274); // be
+// Elapsed time: 11 seconds
+selectCodeEditor("Motor_Driver.v", 242, 251); // be
+// Elapsed time: 14 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw_manager 
+dismissDialog("Close Hardware Manager"); // bA
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 02:39:30 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 02:39:31 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("Motor_Driver.v", 635, 136); // be
+selectCodeEditor("Motor_Driver.v", 556, 138); // be
+// Elapsed time: 14 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 2); // m
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+selectButton("OptionPane.button", "OK"); // JButton
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 02:40:34 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 02:40:34 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9821] no definition for port 'LED0' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:296]. ]", 5); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9821] no definition for port 'LED0' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:296]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;296;-;;-;16;-;"); // ah
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 454, 161); // be
+// Elapsed time: 34 seconds
+selectCodeEditor("Motor_Driver.v", 108, 276); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Motor_Driver.v", 417, 69); // be
+selectCodeEditor("Motor_Driver.v", 451, 63); // be
+selectCodeEditor("Motor_Driver.v", 485, 73); // be
+selectCodeEditor("Motor_Driver.v", 520, 69); // be
+selectCodeEditor("Motor_Driver.v", 141, 151); // be
+selectCodeEditor("Motor_Driver.v", 219, 138); // be
+selectCodeEditor("Motor_Driver.v", 212, 122); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 96, 134); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 222, 138); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 02:42:58 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 27 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9821] no definition for port 'L0' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:296]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;296;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.v", 91, 155); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 02:43:42 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("Motor_Driver.v", 115, 217); // be
+selectCodeEditor("Motor_Driver.v", 65, 221); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 02:44:26 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 336 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectCodeEditor("Motor_Driver.v", 71, 216); // be
+selectCodeEditor("Motor_Driver.v", 34, 223); // be
+selectCodeEditor("Motor_Driver.v", 40, 238); // be
+selectCodeEditor("Motor_Driver.v", 32, 262); // be
+selectCodeEditor("Motor_Driver.v", 39, 280); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 02:50:39 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 49 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 5, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 5, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah
+// Elapsed time: 76 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 5, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-6156] failed synthesizing module 'Motor_Driver' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:23]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;23;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 5, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah
+// Elapsed time: 56 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 5, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 5, false, false, false, false, true, false); // ah - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'ColRed' should not be used in output port connection [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 5, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah
+// Elapsed time: 28 seconds
+selectCodeEditor("Motor_Driver.v", 129, 220); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 424, 194); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 02:54:47 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 31 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9915] port 'ColRed' is not defined [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:50]. ]", 5, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;50;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.v", 220, 217); // be
+selectCodeEditor("Motor_Driver.v", 352, 199); // be
+selectCodeEditor("Motor_Driver.v", 358, 198); // be
+// Elapsed time: 327 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 03:01:05 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 31 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 94 MB. Current time: 12/4/22, 3:02:25 AM CST
+// Elapsed time: 225 seconds
+selectCodeEditor("Motor_Driver.v", 602, 136); // be
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Motor_Driver.v", 364, 135); // be
+selectCodeEditor("Motor_Driver.v", 711, 260); // be
+// Elapsed time: 34 seconds
+selectCodeEditor("Motor_Driver.v", 403, 95); // be
+selectCodeEditor("Motor_Driver.v", 435, 91); // be
+selectCodeEditor("Motor_Driver.v", 510, 89); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("Motor_Driver.v", 167, 284); // be
+// Elapsed time: 19 seconds
+selectCodeEditor("Motor_Driver.v", 621, 31); // be
+// Elapsed time: 20 seconds
+selectCodeEditor("Motor_Driver.v", 90, 160); // be
+selectCodeEditor("Motor_Driver.v", 92, 175); // be
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 42 seconds
+selectCodeEditor("Motor_Driver.v", 85, 241); // be
+// Elapsed time: 66 seconds
+selectCodeEditor("Motor_Driver.v", 93, 240); // be
+selectCodeEditor("Motor_Driver.v", 89, 258); // be
+selectCodeEditor("Motor_Driver.v", 87, 272); // be
+selectCodeEditor("Motor_Driver.v", 94, 274); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 166, 313); // be
+selectCodeEditor("Motor_Driver.v", 522, 53); // be
+selectCodeEditor("Motor_Driver.v", 129, 238); // be
+// Elapsed time: 18 seconds
+selectCodeEditor("Motor_Driver.v", 237, 158); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 447, 238); // be
+// Elapsed time: 198 seconds
+selectCodeEditor("Motor_Driver.v", 270, 247); // be
+// Elapsed time: 146 seconds
+selectCodeEditor("Motor_Driver.v", 468, 242); // be
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 03:16:25 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("Motor_Driver.v", 199, 178); // be
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 27 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-36] 'ColRed' is not declared [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:389]. ]", 11); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-36] 'ColRed' is not declared [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:389]. ]", 11, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;389;-;;-;16;-;"); // ah
+// Elapsed time: 56 seconds
+selectCodeEditor("Motor_Driver.v", 393, 69); // be
+// Elapsed time: 27 seconds
+selectCodeEditor("Motor_Driver.v", 457, 299); // be
+// Elapsed time: 14 seconds
+selectCodeEditor("Motor_Driver.v", 694, 271); // be
+selectCodeEditor("Motor_Driver.v", 694, 308); // be
+selectCodeEditor("Motor_Driver.v", 171, 244); // be
+selectCodeEditor("Motor_Driver.v", 441, 307); // be
+selectCodeEditor("Motor_Driver.v", 187, 235); // be
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2715] syntax error near sense [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:56]. ]", 10, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;56;-;;-;16;-;"); // ah
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 262, 240); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 412, 95); // be
+// Elapsed time: 10 seconds
+selectCodeEditor("Motor_Driver.v", 129, 224); // be
+// Elapsed time: 20 seconds
+selectCodeEditor("Motor_Driver.v", 261, 155); // be
+selectCodeEditor("Motor_Driver.v", 244, 158); // be
+// Elapsed time: 41 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:20:35 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9844] non-net port 'ColRed' cannot be of mode input [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:24]. ]", 5); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9844] non-net port 'ColRed' cannot be of mode input [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:24]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;24;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.v", 616, 223); // be
+selectCodeEditor("Motor_Driver.v", 616, 223); // be
+// Elapsed time: 12 seconds
+selectCodeEditor("Motor_Driver.v", 610, 243); // be
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2577] procedural assignment to a non-register L0 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:392]. ]", 9); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2577] procedural assignment to a non-register L0 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:392]. ]", 9, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;392;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.v", 295, 258); // be
+selectCodeEditor("Motor_Driver.v", 72, 224); // be
+selectCodeEditor("Motor_Driver.v", 71, 244); // be
+selectCodeEditor("Motor_Driver.v", 74, 256); // be
+selectCodeEditor("Motor_Driver.v", 73, 278); // be
+selectCodeEditor("Motor_Driver.v", 419, 225); // be
+// Elapsed time: 30 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9844] non-net port 'ColRed' cannot be of mode input [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:24]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;24;-;;-;16;-;"); // ah
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 03:22:59 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2577] procedural assignment to a non-register L0 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:389]. ]", 5); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2577] procedural assignment to a non-register L0 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:389]. , [Synth 8-2577] procedural assignment to a non-register L1 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:390]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;390;-;;-;16;-;"); // ah
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2577] procedural assignment to a non-register L0 is not permitted, left-hand side should be reg/integer/time/genvar [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:389]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;389;-;;-;16;-;"); // ah
+// Elapsed time: 26 seconds
+selectCodeEditor("Motor_Driver.v", 84, 255); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:24:22 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-27] procedural assign not supported [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:389]. ]", 5, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;389;-;;-;16;-;"); // ah
+// Elapsed time: 40 seconds
+selectCodeEditor("Motor_Driver.v", 293, 368); // be
+selectCodeEditor("Motor_Driver.v", 525, 185); // be
+// Elapsed time: 13 seconds
+selectCodeEditor("Motor_Driver.v", 224, 261); // be
+selectCodeEditor("Motor_Driver.v", 98, 220); // be
+selectCodeEditor("Motor_Driver.v", 145, 196); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:26:11 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9821] no definition for port 'L0' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:296]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;296;-;;-;16;-;"); // ah
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9821] no definition for port 'L0' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:296]. ]", 5, true); // ah - Node
+// Elapsed time: 50 seconds
+selectCodeEditor("Motor_Driver.v", 212, 282); // be
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // al
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 03:28:04 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 23 seconds
+selectCodeEditor("Motor_Driver.v", 256, 308); // be
+selectCodeEditor("Motor_Driver.v", 730, 124); // be
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+// Elapsed time: 24 seconds
+typeControlKey(null, null, 'z');
+selectCodeEditor("Motor_Driver.v", 335, 269); // be
+selectCodeEditor("Motor_Driver.v", 365, 281); // be
+// Elapsed time: 16 seconds
+selectCodeEditor("Motor_Driver.v", 106, 251); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 33 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-36] 'L0' is not declared [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:296]. ]", 5); // ah
+selectCodeEditor("Motor_Driver.v", 402, 323); // be
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 13 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:30:44 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 31 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-9821] no definition for port 'L0' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:297]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;297;-;;-;16;-;"); // ah
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 94 MB. Current time: 12/4/22, 3:32:25 AM CST
+// Elapsed time: 126 seconds
+selectCodeEditor("Motor_Driver.v", 37, 282); // be
+selectCodeEditor("Motor_Driver.v", 381, 75); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 89 seconds
+selectCodeEditor("Motor_Driver.v", 179, 73); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'c'); // be
+selectCodeEditor("Motor_Driver.v", 73, 71); // be
+selectCodeEditor("Motor_Driver.v", 71, 85); // be
+// Elapsed time: 22 seconds
+selectCodeEditor("Motor_Driver.v", 343, 181); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+// Elapsed time: 25 seconds
+selectCodeEditor("Motor_Driver.v", 444, 171); // be
+selectCodeEditor("Motor_Driver.v", 455, 172); // be
+selectCodeEditor("Motor_Driver.v", 455, 172, false, false, false, false, true); // be - Double Click
+selectCodeEditor("Motor_Driver.v", 161, 181); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'c'); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 223, 223); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 176, 239); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:36:26 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 31 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Failed"); // ag
+// Elapsed time: 22 seconds
+selectCodeEditor("Motor_Driver.v", 327, 140); // be
+selectCodeEditor("Motor_Driver.v", 349, 151); // be
+selectCodeEditor("Motor_Driver.v", 331, 206); // be
+selectCodeEditor("Motor_Driver.v", 332, 178); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:37:46 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 75 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Completed"); // ag
+// Elapsed time: 60 seconds
+selectCodeEditor("Motor_Driver.v", 279, 180); // be
+// Elapsed time: 19 seconds
+selectCodeEditor("Motor_Driver.v", 740, 265); // be
+// Elapsed time: 36 seconds
+selectCodeEditor("Motor_Driver.v", 405, 201); // be
+selectCodeEditor("Motor_Driver.v", 306, 218); // be
+selectCodeEditor("Motor_Driver.v", 294, 244); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Motor_Driver.v", 402, 198); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'c'); // be
+selectCodeEditor("Motor_Driver.v", 288, 222); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 277, 243); // be
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+selectCodeEditor("Motor_Driver.v", 384, 219); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:41:44 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Completed"); // ag
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a
+dismissDialog("No Implementation Results Available"); // A
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Dec  4 03:42:57 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 14 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:52]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;52;-;;-;16;-;"); // ah
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 44 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log", false); // g: FALSE
+selectCheckBox(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log", false); // g: FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Bitstream Generation Failed"); // ag
+// Elapsed time: 169 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 26 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: LED0.. ]", 12, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;LED0;-;;-;10;-;"); // ah
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 2); // m
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 1 out of 26 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: LED0.. ]", 12, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;LED0;-;;-;10;-;"); // ah
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Message: open_run impl_1 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 96 MB. Current time: 12/4/22, 3:47:54 AM CST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1827 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 3772.656 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2022.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 4461.977 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.052 . Memory (MB): peak = 4461.977 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4461.977 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:21 . Memory (MB): peak = 4592.074 ; gain = 1170.570 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// PAPropertyPanels.initPanels (LED0) elapsed time: 0.2s
+// Elapsed time: 23 seconds
+dismissDialog("Open Implemented Design"); // bA
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 3); // m
+// Elapsed time: 30 seconds
+selectCodeEditor("Motor_Driver.xdc", 481, 155); // be
+typeControlKey((HResource) null, "Motor_Driver.xdc", 'v'); // be
+selectCodeEditor("Motor_Driver.xdc", 414, 153); // be
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // D
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sun Dec  4 03:49:07 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 03:49:07 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bA
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // j
+closeTask("Implementation", "Implemented Design", "DesignTask.RESULTS_ANALYSIS");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,302 MB. GUI used memory: 127 MB. Current time: 12/4/22, 3:49:18 AM CST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 3,302 MB. GUI used memory: 127 MB. Current time: 12/4/22, 3:49:18 AM CST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: close_design 
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Close"); // bA
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 70 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 5, true); // ah - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 5, true); // ah - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 5); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. ]", 7, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;153;-;;-;16;-;"); // ah
+// TclEventType: RUN_STEP_COMPLETED
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:54]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;54;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:156]. ]", 9, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;156;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. ]", 7, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;153;-;;-;16;-;"); // ah
+// Elapsed time: 18 seconds
+selectCodeEditor("Motor_Driver.xdc", 366, 164); // be
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:54]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;54;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. ]", 7, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;153;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. ]", 7, false, false, false, false, true, false); // ah - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:154]. ]", 8, false); // ah
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+selectCodeEditor("Motor_Driver.v", 209, 81); // be
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 15 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ag
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Dec  4 03:51:35 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 37 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:190]. ]", 19, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;190;-;;-;16;-;"); // ah
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 2); // m
+selectCodeEditor("Motor_Driver.xdc", 400, 89); // be
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:184]. ]", 15, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:184]. ]", 15, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;184;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:185]. ]", 16, false, false, false, false, true, false); // ah - Popup Trigger
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:185]. ]", 16, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;185;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:187]. ]", 17, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;187;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:188]. ]", 18, false); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:190]. ]", 19, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;190;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:191]. ]", 20, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;191;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:197]. ]", 24, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;197;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:156]. ]", 9, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;156;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;53;-;;-;16;-;"); // ah
+// Elapsed time: 35 seconds
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 4); // ah
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 4); // ah
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis]", 4); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 7, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;53;-;;-;16;-;"); // ah
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 7); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:54]. ]", 8, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;54;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. ]", 9, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;153;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. , [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:54]. ]", 8, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;54;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.xdc", 493, 221); // be
+selectCodeEditor("Motor_Driver.xdc", 422, 199); // be
+selectCodeEditor("Motor_Driver.xdc", 498, 219); // be
+selectCodeEditor("Motor_Driver.xdc", 489, 174); // be
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 1); // m
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18); // n
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18); // n
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+selectButton("OptionPane.button", "Cancel"); // JButton
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // n - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// Tcl Message: open_hw_manager 
+dismissDialog("Open Hardware Manager"); // bA
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // ao
+selectMenuItem((HResource) null, "localhost:3121,xilinx_tcf/Digilent/210183B16119A,PARAM.FREQUENCY:30000000"); // ar
+// Tcl Message: connect_hw_server -url localhost:3121 -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2022.1   **** Build date : Apr 18 2022 at 16:02:36     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2022.1.0   ****** Build date   : Apr 12 2022-14:12:08     **** Build number : 2022.1.1649790728       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 4595.051 ; gain = 0.000 
+// Tcl Message: current_hw_target [get_hw_targets */xilinx_tcf/Digilent/210183B16119A] 
+// TclEventType: HW_TARGET_CHANGE
+// Tcl Message: set_property PARAM.FREQUENCY 30000000 [get_hw_targets */xilinx_tcf/Digilent/210183B16119A] 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Tcl Message: create_hw_cfgmem -hw_device [get_hw_devices xc7a35t_0] -mem_dev [lindex [get_cfgmem_parts {mx25l3273f-spi-x1_x2_x4}] 0] 
+// TclEventType: HW_CFGMEM_CREATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_CFGMEM_PART_CHANGE
+// Elapsed time: 10 seconds
+dismissDialog("Open Hardware Target"); // bA
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+dismissFileChooser();
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'I' command handler elapsed time: 10 seconds
+dismissDialog("Program Device"); // bC
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bC
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Configuration Memory Device Properties..."); // ar
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "mx25l3273f-spi-x1_x2_x4 ; ", 4, "mx25l3273f-spi-x1_x2_x4", 0, false, false, false, false, true, false); // t - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY, "Program Configuration Memory Device..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_CONFIG_MEMORY
+dismissDialog("Program Configuration Memory Device"); // aE
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183B16119A (1) ; Open", 1, "xilinx_tcf/Digilent/210183B16119A (1)", 0, true); // t - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xilinx_tcf/Digilent/210183B16119A (1) ; Open", 1, "xilinx_tcf/Digilent/210183B16119A (1)", 0, true, false, false, false, true, false); // t - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true); // t - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (2) ; Programmed", 2, "xc7a35t_0 (2)", 0, true, false, false, false, true, false); // t - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ar
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+// Elapsed time: 31 seconds
+setFileChooser("C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bin");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // s
+setFileChooser("C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bit");
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 40 seconds
+dismissDialog("Program Device"); // bA
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bA
+// Elapsed time: 10 seconds
+selectCodeEditor("Motor_Driver.v", 441, 111); // be
+// Elapsed time: 57 seconds
+selectCodeEditor("Motor_Driver.v", 806, 220); // be
+// Elapsed time: 30 seconds
+selectCodeEditor("Motor_Driver.v", 473, 78); // be
+selectCodeEditor("Motor_Driver.v", 947, 103); // be
+selectCodeEditor("Motor_Driver.v", 104, 277); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 1); // m
+selectCodeEditor("Motor_Driver.xdc", 492, 220); // be
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // D
+selectCodeEditor("Motor_Driver.xdc", 410, 208); // be
+// Elapsed time: 64 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 0); // m
+selectCodeEditor("Motor_Driver.v", 153, 288); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Motor_Driver.v", 997, 175); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Dec  4 04:00:27 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 04:00:27 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 30 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ag
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ')' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:26]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah
+selectCodeEditor("Motor_Driver.v", 884, 96); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Dec  4 04:01:10 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 04:01:10 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 82 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 5, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;53;-;;-;16;-;"); // ah
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:53]. ]", 5); // ah
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 0); // m
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // g
+selectButton(PAResourceQtoS.StateMonitor_RESET_RUN, "Reset Run"); // a
+// TclEventType: RUN_MODIFY
+dismissDialog("Cancel Implementation"); // aV
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bA
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.xdc", 1); // m
+selectCodeEditor("Motor_Driver.xdc", 487, 248); // be
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // D
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Dec  4 04:03:07 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 04:03:07 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 167 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_LOG_WINDOW, "View Log", false); // g: FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Bitstream Generation Failed"); // ag
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. ]", 6, true); // ah - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;153;-;;-;16;-;"); // ah
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. ]", 6); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. , [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:156]. ]", 7, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;156;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. , [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:181]. ]", 9, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;181;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. , [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:184]. ]", 10, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;184;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. , [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:187]. ]", 11, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;187;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. , [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:190]. ]", 12, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;190;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:153]. , [Common 17-69] Command failed: Site cannot be assigned to more than one port [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/constrs_1/new/Motor_Driver.xdc:190]. ]", 12, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\constrs_1\new\Motor_Driver.xdc;-;;-;16;-;line;-;190;-;;-;16;-;"); // ah
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Motor_Driver.v", 0); // m
+selectCodeEditor("Motor_Driver.v", 719, 163); // be
+selectCodeEditor("Motor_Driver.v", 790, 160); // be
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Motor_Driver.v", 'v'); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// Tcl Message: INFO: [Project 1-1161] Replacing file C:/Users/conne/Motor_Driver/Motor_Driver.srcs/utils_1/imports/synth_1/Motor_Driver.dcp with file C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/Motor_Driver.dcp 
+dismissDialog("Resetting Runs"); // bA
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sun Dec  4 04:07:23 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 04:07:23 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-1206] Syntax error near ')' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:26]. ]", 6, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-1206] Syntax error near ')' [C:/Users/conne/Motor_Driver/Motor_Driver.srcs/sources_1/new/Motor_Driver.v:26]. ]", 8, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\conne\Motor_Driver\Motor_Driver.srcs\sources_1\new\Motor_Driver.v;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Synthesis Failed"); // ag
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("Motor_Driver.v", 826, 144); // be
+selectCodeEditor("Motor_Driver.v", 819, 166); // be
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // n
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bA
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Dec  4 04:07:57 2022] Launched synth_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/synth_1/runme.log [Sun Dec  4 04:07:57 2022] Launched impl_1... Run output will be captured here: C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bA
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 159 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Bitstream Generation Completed"); // ag
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // g
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bC
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/conne/Motor_Driver/Motor_Driver.runs/impl_1/Motor_Driver.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 8 seconds
+dismissDialog("Program Device"); // bA
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B16119A 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// Elapsed time: 85 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f
+dismissDialog("Close Hardware Target"); // n
+// Elapsed time: 167 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // aj
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // aj
